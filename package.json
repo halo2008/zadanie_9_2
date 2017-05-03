@@ -1,10 +1,19 @@
 {
-  "name": "zadanie_8_6",
+  "name": "zadanie_9_1",
   "version": "1.0.0",
-  "description": "",
-  "main": "Gruntfile.js",
+  "description": "function",
+  "main": "index.js",
+  "dependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.1.0"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D9_1"
   },
   "author": "",
   "license": "ISC"
