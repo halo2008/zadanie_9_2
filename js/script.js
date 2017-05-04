@@ -1,16 +1,14 @@
-function getTriangleArea(a,h){
+var femaleNames = ['Asia', 'Kasia', 'Ola', 'Jola'];
+var maleNames = ['Piotrek', 'Marek', 'Arek', 'Jarek'];
+var allNames =[];
+var allNames = allNames.concat(femaleNames,maleNames);
 
-  if (a<=0 || h<=0){
-    console.log('błedna wartosc');
-    return;
-  }
-  else if (a>0 && h>0){
-    var value = (a*h)/2;
-    console.log('pole trojkata ' + value)
-    return;
-  }
+var newName = prompt();
+
+if (allNames.indexOf(newName) === -1){
+ allNames.push(newName);
+ console.log(allNames); 
 }
-var triangle1Area = getTriangleArea(10, 15);
-var triangle2Area = getTriangleArea(2, 15);
-var triangle3Area = getTriangleArea(3, 15);
-console.log(getTriangleArea());
+else {
+  console.log('Dwoch takich samych nam nie potrzeba')
+}
